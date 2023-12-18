@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ryan_sheldrake_WebGoat_Dec23_1702899312886-push-trigger-input-set
+  identifier: Build_ryan_sheldrake_WebGoat_Dec23_1702899312886pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ryan_sheldrake_WebGoat_Dec23_1702899312886
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
